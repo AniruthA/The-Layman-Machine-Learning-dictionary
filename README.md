@@ -65,7 +65,7 @@ SOURCE: https://blog.bismart.com/en/classification-vs.-clustering-a-practical-ex
 A neural network is a series of algorithms that endeavors to recognize underlying relationships in a set of data through a process that mimics the way the human brain operates. In this sense, neural networks refer to systems of neurons, either organic or artificial in nature. Neural networks can adapt to changing input; so the network generates the best possible result without needing to redesign the output criteria.
 
 ## 10. Linear Regression
-Linear Regression algorithm will use the data points to find the best fit line to model the data. A line can be represented by the equation, **y = m*x + c** where **y** is the dependent variable and **x** is the independent variable. Basic calculus theories are applied to find the values for **m** and **c** using the given data set.
+Linear Regression algorithm will use the data points to find the best fit line to model the data. A line can be represented by the equation, **y = m\*x + c** where **y** is the dependent variable and **x** is the independent variable. Basic calculus theories are applied to find the values for **m** and **c** using the given data set.
 Linear Regression has 2 types as **Simple Linear Regression** where only 1 independent variable is used and **Multiple Linear Regression** where multiple independent variables are defined.
 
 ![alt tag](https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Linear_regression.svg/400px-Linear_regression.svg.png)
@@ -73,5 +73,9 @@ Linear Regression has 2 types as **Simple Linear Regression** where only 1 indep
 Learn more [here](http://www.stat.yale.edu/Courses/1997-98/101/linreg.htm)
 
 ## 11. Logistic Regression
+Logistic Regression is similar to Linear Regression, but instead of using **y = m\*x + c** it uses something called the sigmoid activation function. The sigmoid activation function is **y = 1/ (1 + (e^-x))**. The reason for this is that the sigmoid function will always give a value between one and zero. Once again, like Linear Regression, Logistic Regression has 2 types, **Simple Logistic Regression** and **Multi-Classificatin Logistic Regression**. Multi-Classification Logistic Regression uses trains multiple classifiers and compares the probability of each using either **One vs All** or **One vs One**.
+
+![alt tag](https://en.wikipedia.org/wiki/Sigmoid_function#/media/File:Logistic-curve.svg)
+##### The sigmoid activation function
 ## 12. PolynomialRegression
 
